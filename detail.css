@@ -1,0 +1,172 @@
+@media screen and (max-width: 768px){
+    aside{
+        display: none;
+    }
+    article {
+        width: 100%;
+    }
+}
+/* landscape phone and vertical tablet */
+@media screen and (min-width: 768px){
+    .tour-icon-right {
+        float: right;
+    }
+    article {
+        width: 74%;
+    }
+}
+     
+  
+    /* laptop and landscape tablet */
+@media screen and (min-width: 1024px)
+{
+ 
+}
+
+
+/*  */
+article {
+    float: left;
+   
+    height: auto !important;
+    background-color: #fff !important;
+   
+}
+ aside {
+    float: left;
+    padding: 5px;
+    width: calc(100% - 74% - 40px);
+    background-color: #f1f2f1;
+    height: auto;
+ }
+.detail-bar{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.detail-bar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* header */
+.tour-header{
+    background-color: #fff;
+}
+.tour-icon {
+    justify-content: center;
+    text-align: center;
+}
+/* left */
+.tour-icon-left {
+    
+    float: left;
+    margin-right: 20px;
+}
+/* right */
+
+/* paper */
+.paper{
+    
+    background-color: #ebeaea;
+    padding: 10px;
+    margin: 10px 0;
+} .paper p{
+    margin-left: 20px
+}
+.paper h4{
+    padding: 10px;
+} 
+
+.paper .comment{
+    text-align: center;
+}
+ /* pay */
+ aside {
+
+    float: right;
+    position: sticky;
+    top:20px;
+ }
+
+ /* video */
+    .video{
+        margin: 10px 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+/* date time */
+#datetime{
+    font-size: 14px;
+    color: #333;
+}
+
+/* Box */
+.box-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+/* box-child */
+.box-child{
+    width: 22%;
+    background-color: #fff;
+    padding: 5px;
+    margin: 15px 0;
+    text-align: center;
+    border: 1px solid aqua  ;
+}
+/* hover */
+.box-child:hover{
+   border: 1px solid red ;
+}
+
+/* price */
+.box-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .math {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    width: 70%;
+    
+  }
+
+  .button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+ .box-contact {
+    justify-content:space-between ;
+    display: flex ;
+    margin-top: 10px;
+    padding: 5px;
+    
+ }
+.btn {
+    width: 45%;
+    text-align: 20px;
+    font-size: 15px;
+    background-color: orange;
+} 
+.btn:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.insurent {
+    margin: 20px 0;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    grid-gap: 10px; /* Gap between the columns */
+  }
+  
